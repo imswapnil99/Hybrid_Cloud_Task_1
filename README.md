@@ -19,3 +19,16 @@
 2) create snapshot of ebs
 
 Above task should be done using terraform
+
+Before creating infrastructure let's see **_Some Basic Terraform Commands_**
+- To initialize or install plugins:
+> terraform init
+
+- To check the code:
+> terraform validate
+
+- To run or deploy:
+> terraform apply
+
+- To destroy the complete infrastructure:
+> terraform destroy
